@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/cup_PNG1994.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/mine.css">
+    <title>Coffe</title>
+</head>
+<body>
+    
+    <div class="content">
+        <!-- nav -->
+        <div class="row">
+                    <a class="col" href="#home">HOME</a>
+                    <a class="col" href="#about">ABOUT</a>
+                    <a class="col" href="#menu">MENU</a>
+                    <a class="col" href="#where">WHERE</a>
+        </div>
+        <header id="home">
+            <div class="headleft"><p>Open from 6am to 5pm</p></div>
+            <div class="headcent">
+                <h1>The <br> Cafe</h1>
+            </div>
+             <div class="headright"><p>15 Adr street, 5015</p></div>
+        </header>
+    </div>
+    <div class="container" id="about">
+        <h5><span>ABOUT THE CAFE</span></h5>
+        <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+        <div class="panel">
+            <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet."</i></p>
+            <div class="padd"></div>
+            <p>Chef, Coffeeist and Owner: Liam Brown</p>
+        </div>
+
+        <!-- caffe image -->
+        <img src="./img/coffeeshop.jpg" alt="coffee shop">
+        <p><b>Opening hours:</b> Everyday from 6am to 5pm.</p>
+        <p><b>Address:</b>  15 Adr street, 5015, NY</p>
+
+        <!-- collapse -->
+        <h5 id="menu"><span>THE MENU</span></h5>
+
+        <div class="accordion senka" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Eat
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Bread Basket</p>
+                <p class="grey">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <hr>
+                <p>Honey Almond Granola with Fruits</p>
+                <p class="grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <hr>
+                <p>Belgian Waffle</p>
+                <p class="grey">Vanilla flavored batter with malted flour 7.50</p>
+                <hr>
+                <p>Scrambled eggs</p>
+                <p class="grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <hr>
+                <p>Blueberry Pancakes</p>
+                <p class="grey">With syrup, butter and lots of berries 8.50</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Drink
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>Coffee</p>
+                <p class="grey">Regular coffee 2.50</p>
+                <hr>
+                <p>Chocolato</p>
+                <p class="grey">Chocolate espresso with milk 4.50</p>
+                <hr>
+                <p>Corretto</p>
+                <p class="grey">Whiskey and coffee 5.00</p>
+                <hr>
+                <p>Iced tea</p>
+                <p class="grey">Hot tea, except not hot 3.00</p>
+                <hr>
+                <p>Soda</p>
+                <p class="grey">Coke, Sprite, Fanta, etc. 2.50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img src="./img/coffeehouse2.jpg" alt="a cup coffee" style="margin-top: 32px;">
+
+        <h5 id="where"><span>WHERE TO FIND US</span></h5>
+        <p>Find us at some address at some place.</p>
+
+        <img src="./img/map.jpg" alt="map">
+
+        <p><span>FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+
+        <form action="">
+          <input class="form-control form-control-lg" type="text" placeholder="Name" required name="name">
+          <input class="form-control form-control-lg" type="number" placeholder="How many people" required name="people">
+          <input class="form-control form-control-lg" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00">
+          <input class="form-control form-control-lg" type="text" placeholder="Message \ Special requirements" required name="Message">
+          <button type="submit" class="btn btn-dark mb-2">SEND MESAGE</button>
+        </form>
+    
+    </div>
+
+    <footer>
+      <p>By Luka in january 2021</p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
